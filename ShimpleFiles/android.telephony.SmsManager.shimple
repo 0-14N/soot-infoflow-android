@@ -1,0 +1,8 @@
+    public static android.telephony.SmsManager getDefault()
+    {
+        java.lang.RuntimeException $r0;
+
+        $r0 = new java.lang.RuntimeException;
+        specialinvoke $r0.<java.lang.RuntimeException: void <init>(java.lang.String)>("Stub!");
+        throw $r0;
+    }

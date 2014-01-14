@@ -1,0 +1,74 @@
+    static void <clinit>()
+    {
+        <android.app.Activity: int[] FOCUSED_STATE_SET> = null;
+        return;
+    }
+    public android.view.MenuInflater getMenuInflater()
+    {
+        android.app.Activity r0;
+        java.lang.RuntimeException $r1;
+
+        r0 := @this: android.app.Activity;
+        $r1 = new java.lang.RuntimeException;
+        specialinvoke $r1.<java.lang.RuntimeException: void <init>(java.lang.String)>("Stub!");
+        throw $r1;
+    }
+    protected void onCreate(android.os.Bundle)
+    {
+        android.app.Activity r0;
+        android.os.Bundle r1;
+        java.lang.RuntimeException $r2;
+
+        r0 := @this: android.app.Activity;
+        r1 := @parameter0: android.os.Bundle;
+        $r2 = new java.lang.RuntimeException;
+        specialinvoke $r2.<java.lang.RuntimeException: void <init>(java.lang.String)>("Stub!");
+        throw $r2;
+    }
+    public void setContentView(int)
+    {
+        android.app.Activity r0;
+        int i0;
+        java.lang.RuntimeException $r1;
+
+        r0 := @this: android.app.Activity;
+        i0 := @parameter0: int;
+        $r1 = new java.lang.RuntimeException;
+        specialinvoke $r1.<java.lang.RuntimeException: void <init>(java.lang.String)>("Stub!");
+        throw $r1;
+    }
+    public java.lang.Object getSystemService(java.lang.String)
+    {
+        android.app.Activity r0;
+        java.lang.String r1;
+        java.lang.RuntimeException $r2;
+
+        r0 := @this: android.app.Activity;
+        r1 := @parameter0: java.lang.String;
+        $r2 = new java.lang.RuntimeException;
+        specialinvoke $r2.<java.lang.RuntimeException: void <init>(java.lang.String)>("Stub!");
+        throw $r2;
+    }
+    public android.view.View findViewById(int)
+    {
+        android.app.Activity r0;
+        int i0;
+        java.lang.RuntimeException $r1;
+
+        r0 := @this: android.app.Activity;
+        i0 := @parameter0: int;
+        $r1 = new java.lang.RuntimeException;
+        specialinvoke $r1.<java.lang.RuntimeException: void <init>(java.lang.String)>("Stub!");
+        throw $r1;
+    }
+    public void <init>()
+    {
+        android.app.Activity r0;
+        java.lang.RuntimeException $r1;
+
+        r0 := @this: android.app.Activity;
+        specialinvoke r0.<android.view.ContextThemeWrapper: void <init>()>();
+        $r1 = new java.lang.RuntimeException;
+        specialinvoke $r1.<java.lang.RuntimeException: void <init>(java.lang.String)>("Stub!");
+        throw $r1;
+    }

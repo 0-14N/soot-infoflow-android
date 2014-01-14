@@ -1,0 +1,13 @@
+    public void <init>()
+    {
+        android.view.ContextThemeWrapper r0;
+        android.content.Context $r1;
+        java.lang.RuntimeException $r2;
+
+        r0 := @this: android.view.ContextThemeWrapper;
+        $r1 = (android.content.Context) null;
+        specialinvoke r0.<android.content.ContextWrapper: void <init>(android.content.Context)>($r1);
+        $r2 = new java.lang.RuntimeException;
+        specialinvoke $r2.<java.lang.RuntimeException: void <init>(java.lang.String)>("Stub!");
+        throw $r2;
+    }

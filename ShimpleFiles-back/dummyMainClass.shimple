@@ -1,0 +1,66 @@
+    public static void dummyMainMethod()
+    {
+        int $i0;
+        com.demos.flowdroid1.MainActivity $r0;
+        android.os.Bundle $r1;
+        boolean $z0;
+        com.demos.flowdroid1.MainActivity$1 $r2;
+        android.view.View $r3;
+
+        $i0 = 0;
+
+     label0:
+        $r0 = new com.demos.flowdroid1.MainActivity;
+        specialinvoke $r0.<com.demos.flowdroid1.MainActivity: void <init>()>();
+        if $i0 == 0 goto label8;
+
+     label1:
+        $r1 = new android.os.Bundle;
+        specialinvoke $r1.<android.os.Bundle: void <init>()>();
+        virtualinvoke $r0.<com.demos.flowdroid1.MainActivity: void onCreate(android.os.Bundle)>($r1);
+        $r1 = null;
+
+     label2:
+        if $i0 == 1 goto label3;
+
+        $z0 = virtualinvoke $r0.<com.demos.flowdroid1.MainActivity: boolean onCreateOptionsMenu(android.view.Menu)>(null);
+
+     label3:
+        $r2 = new com.demos.flowdroid1.MainActivity$1;
+        specialinvoke $r2.<com.demos.flowdroid1.MainActivity$1: void <init>(com.demos.flowdroid1.MainActivity,java.lang.String)>($r0, "");
+        if $i0 == 2 goto label4;
+
+        $r3 = new android.view.View;
+        specialinvoke $r3.<android.view.View: void <init>(android.content.Context)>($r0);
+        virtualinvoke $r2.<com.demos.flowdroid1.MainActivity$1: void onClick(android.view.View)>($r3);
+        $r3 = null;
+
+     label4:
+        if $i0 == 3 goto label2;
+
+        if $i0 == 4 goto label2;
+
+        if $i0 == 5 goto label5;
+
+        if $i0 == 6 goto label2;
+
+        if $i0 == 7 goto label1;
+
+     label5:
+        if $i0 == 8 goto label7;
+
+        if $i0 == 9 goto label6;
+
+        if $i0 == 10 goto label1;
+
+     label6:
+        if $i0 == 11 goto label2;
+
+     label7:
+        if $i0 == 12 goto label8;
+
+     label8:
+        if $i0 == 13 goto label0;
+
+        return;
+    }

@@ -1,0 +1,58 @@
+    static void <clinit>()
+    {
+        <android.view.View: int[] EMPTY_STATE_SET> = null;
+        <android.view.View: int[] ENABLED_STATE_SET> = null;
+        <android.view.View: int[] FOCUSED_STATE_SET> = null;
+        <android.view.View: int[] SELECTED_STATE_SET> = null;
+        <android.view.View: int[] WINDOW_FOCUSED_STATE_SET> = null;
+        <android.view.View: int[] ENABLED_FOCUSED_STATE_SET> = null;
+        <android.view.View: int[] ENABLED_SELECTED_STATE_SET> = null;
+        <android.view.View: int[] ENABLED_WINDOW_FOCUSED_STATE_SET> = null;
+        <android.view.View: int[] FOCUSED_SELECTED_STATE_SET> = null;
+        <android.view.View: int[] FOCUSED_WINDOW_FOCUSED_STATE_SET> = null;
+        <android.view.View: int[] SELECTED_WINDOW_FOCUSED_STATE_SET> = null;
+        <android.view.View: int[] ENABLED_FOCUSED_SELECTED_STATE_SET> = null;
+        <android.view.View: int[] ENABLED_FOCUSED_WINDOW_FOCUSED_STATE_SET> = null;
+        <android.view.View: int[] ENABLED_SELECTED_WINDOW_FOCUSED_STATE_SET> = null;
+        <android.view.View: int[] FOCUSED_SELECTED_WINDOW_FOCUSED_STATE_SET> = null;
+        <android.view.View: int[] ENABLED_FOCUSED_SELECTED_WINDOW_FOCUSED_STATE_SET> = null;
+        <android.view.View: int[] PRESSED_WINDOW_FOCUSED_STATE_SET> = null;
+        <android.view.View: int[] PRESSED_SELECTED_STATE_SET> = null;
+        <android.view.View: int[] PRESSED_SELECTED_WINDOW_FOCUSED_STATE_SET> = null;
+        <android.view.View: int[] PRESSED_FOCUSED_STATE_SET> = null;
+        <android.view.View: int[] PRESSED_FOCUSED_WINDOW_FOCUSED_STATE_SET> = null;
+        <android.view.View: int[] PRESSED_FOCUSED_SELECTED_STATE_SET> = null;
+        <android.view.View: int[] PRESSED_FOCUSED_SELECTED_WINDOW_FOCUSED_STATE_SET> = null;
+        <android.view.View: int[] PRESSED_ENABLED_STATE_SET> = null;
+        <android.view.View: int[] PRESSED_ENABLED_WINDOW_FOCUSED_STATE_SET> = null;
+        <android.view.View: int[] PRESSED_ENABLED_SELECTED_STATE_SET> = null;
+        <android.view.View: int[] PRESSED_ENABLED_SELECTED_WINDOW_FOCUSED_STATE_SET> = null;
+        <android.view.View: int[] PRESSED_ENABLED_FOCUSED_STATE_SET> = null;
+        <android.view.View: int[] PRESSED_ENABLED_FOCUSED_WINDOW_FOCUSED_STATE_SET> = null;
+        <android.view.View: int[] PRESSED_ENABLED_FOCUSED_SELECTED_STATE_SET> = null;
+        <android.view.View: int[] PRESSED_ENABLED_FOCUSED_SELECTED_WINDOW_FOCUSED_STATE_SET> = null;
+        <android.view.View: android.util.Property ALPHA> = null;
+        <android.view.View: android.util.Property TRANSLATION_X> = null;
+        <android.view.View: android.util.Property TRANSLATION_Y> = null;
+        <android.view.View: android.util.Property X> = null;
+        <android.view.View: android.util.Property Y> = null;
+        <android.view.View: android.util.Property ROTATION> = null;
+        <android.view.View: android.util.Property ROTATION_X> = null;
+        <android.view.View: android.util.Property ROTATION_Y> = null;
+        <android.view.View: android.util.Property SCALE_X> = null;
+        <android.view.View: android.util.Property SCALE_Y> = null;
+        return;
+    }
+    public void <init>(android.content.Context)
+    {
+        android.view.View r0;
+        android.content.Context r1;
+        java.lang.RuntimeException $r2;
+
+        r0 := @this: android.view.View;
+        r1 := @parameter0: android.content.Context;
+        specialinvoke r0.<java.lang.Object: void <init>()>();
+        $r2 = new java.lang.RuntimeException;
+        specialinvoke $r2.<java.lang.RuntimeException: void <init>(java.lang.String)>("Stub!");
+        throw $r2;
+    }
